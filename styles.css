@@ -1,0 +1,97 @@
+.navbar {
+  background-color: #BDB76B !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #333 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.intro-images {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: orange;
+  width: 38%;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .intro-images
+  {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: orange;
+    width: 100%;
+    height: auto;
+  }
+  .fav-style
+  {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    float: left;
+    flex-direction: row;
+    background-color: orange;
+    width: 75%;
+    height: 100%;
+  }
+}
+
+  .fav-style
+  {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    float: left;
+    flex-direction: row;
+    background-color: orange;
+    width: 75%;
+    height: auto;
+  }
+
+  .fav-episode-1
+  {
+    width: 300px;
+    height:auto;
+    float: left;
+  }
+
+  .synopsis
+  {
+    text-align: left;
+    font-size: 18;
+  }
+
+  .fav-episode-2
+  {
+    width: 300px;
+    height:auto;
+    float: right;
+  }
+  .thoughts
+  {
+    text-align: right;
+    font-size: 18;
+  }
+
+  .row
+{
+  display: flex;
+}
+
+.column
+{
+  flex: 33.33%;
+  padding: 10px;
+}
